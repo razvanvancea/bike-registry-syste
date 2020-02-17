@@ -1,0 +1,82 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+
+
+### ANGULAR PROJECT ###
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+bike-ui/dist
+bike-ui/tmp
+bike-ui/out-tsc
+# Only exists if Bazel was run
+bike-ui/bazel-out
+
+# dependencies
+bike-ui/node_modules
+
+# profiling files
+bike-ui/chrome-profiler-events*.json
+bike-ui/speed-measure-plugin*.json
+
+# IDEs and editors
+bike-ui/.idea
+bike-ui/.project
+bike-ui/.classpath
+bike-ui/.c9/
+bike-ui/*.launch
+bike-ui/.settings/
+bike-ui/*.sublime-workspace
+
+# IDE - VSCode
+bike-ui/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+bike-ui/.history/*
+
+# misc
+bike-ui/.sass-cache
+bike-ui/connect.lock
+/coverage
+/libpeerconnection.log
+bike-ui/npm-debug.log
+bike-ui/yarn-error.log
+bike-ui/testem.log
+bike-ui/typings
+
+# System Files
+bike-ui/.DS_Store
+Tbike-ui/humbs.db
+bike-ui/.gitignore
